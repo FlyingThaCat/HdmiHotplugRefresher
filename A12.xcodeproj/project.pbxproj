@@ -356,7 +356,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"A12/Preview Content\"";
-				DEVELOPMENT_TEAM = UR3ANRMPWF;
+				DEVELOPMENT_TEAM = RWQ97RWH3X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -384,7 +384,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"A12/Preview Content\"";
-				DEVELOPMENT_TEAM = UR3ANRMPWF;
+				DEVELOPMENT_TEAM = RWQ97RWH3X;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -405,10 +405,11 @@
 		52E957B22DF49BD300B4A761 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = com.flyingthacat.PowerEventPrivilegedHelper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PowerEventPrivilegedHelper/PowerEventPrivilegedHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UR3ANRMPWF;
+				DEVELOPMENT_TEAM = RWQ97RWH3X;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INSTALL_PATH = /Library/PrivilegedHelperTools;
 				OTHER_LDFLAGS = (
@@ -423,16 +424,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyingthacat.PowerEventPrivilegedHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		52E957B32DF49BD300B4A761 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = com.flyingthacat.PowerEventPrivilegedHelper.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PowerEventPrivilegedHelper/PowerEventPrivilegedHelper.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UR3ANRMPWF;
+				DEVELOPMENT_TEAM = RWQ97RWH3X;
 				ENABLE_HARDENED_RUNTIME = NO;
 				INSTALL_PATH = /Library/PrivilegedHelperTools;
 				OTHER_LDFLAGS = (
@@ -447,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.flyingthacat.PowerEventPrivilegedHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
